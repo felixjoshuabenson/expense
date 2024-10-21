@@ -21,6 +21,7 @@ class ExpenseModel {
     required this.amount,
     required this.date,
     required this.category,
+    required String id,
   }) : id = uuid.v4();
 
   final String id;
@@ -53,3 +54,4 @@ class ExpenseBucket {
     return sum;
   }
 }
+

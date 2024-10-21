@@ -9,7 +9,7 @@ void main() {
   runApp(MaterialApp(
     theme: ThemeData().copyWith(
       colorScheme: kColorScheme,
-      appBarTheme: AppBarTheme().copyWith(
+      appBarTheme: const AppBarTheme().copyWith(
         backgroundColor: kColorScheme.onPrimaryContainer,
         foregroundColor: kColorScheme.primaryContainer,
       ),
