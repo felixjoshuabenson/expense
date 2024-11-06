@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
-import 'package:uuid/uuid.dart';
 
-const uuid = Uuid();
 final formatter = DateFormat.yMd();
 
 enum Category { food, travel, leisure, work, charity }
@@ -21,10 +19,11 @@ class ExpenseModel {
     required this.amount,
     required this.date,
     required this.category,
-    required String id,
-  }) : id = uuid.v4();
+    required this.id,
+  });
 
   final String id;
+
   final String title;
   final double amount;
   final DateTime date;
@@ -54,4 +53,3 @@ class ExpenseBucket {
     return sum;
   }
 }
-

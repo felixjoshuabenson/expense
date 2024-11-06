@@ -2,26 +2,23 @@
 
 An intuitive and responsive Flutter app designed to help users track and categorize their expenses. This app provides users with a comprehensive view of their spending through an interactive chart and an easy-to-use expense entry system.
 
-## Features
+# Features
 
 - Expense Categories: Users can categorize their expenses into predefined categories such as Food, Travel, Leisure, Work, and Charity.
-- Interactive Chart: The app provides a responsive bar chart visualization of expenses in each category.
-- Expense List: Users can see a list of all expenses, with the ability to delete an expense and undo the deletion.
-- Add New Expense: Add new expenses with a title, amount, date, and category.
-- Firebase Integration: User expenses are now stored in Firebase, ensuring that data is not lost when the app is closed or restarted.
-- Responsive UI: The app layout adjusts dynamically to different screen sizes and orientations.
+- Interactive Chart: A responsive bar chart visualization of expenses by category helps users easily track spending patterns.
+- Expense List Management: Users can view all expenses in a list, with options to delete expenses and undo deletions if needed.
+- Add New Expense: Users can add new expenses with a title, amount, date, and category for detailed tracking.
+- Firebase Integration: Expenses are stored securely in Firebase, ensuring data persistence across app sessions and device restarts.
+- Resolved Delete Issue: The delete functionality has been improved to synchronize effectively with Firebase, ensuring that deleted expenses remain removed after app restart.
+- Responsive UI: The app layout adjusts dynamically to different screen sizes and orientations, providing an optimal experience across devices.
 
-## Known Issues
 
-- Delete Issue: Currently, when an expense is deleted, it reappears after the app restarts. This seems to be related to how the app is synchronizing the firebaseId and managing deletion in Firebase. Contributions to address this issue are welcome!
+# Contributing
 
-## Contributing
+We welcome contributions from developers. Feel free to fork the repository, submit pull requests, or open issues to suggest improvements or new features.
 
-We encourage developers to contribute and help fix the current issue with deleting expenses from Firebase. Feel free to fork this repository, submit pull requests, or open an issue to discuss potential changes.
+For major changes, please open an issue first to discuss proposed modifications.
 
-For major changes, please open an issue first to discuss what you would like to change.
+# Contact
 
-## Contact
-
-For questions or suggestions, feel free to reach out via amandamen4real@gmail.com
-
+For questions or suggestions, please reach out via amandamen4real@gmail.com
